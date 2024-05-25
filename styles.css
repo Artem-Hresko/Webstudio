@@ -1,7 +1,6 @@
 :root{
-  --main-menu-item-colour:#212121;
-  --accent-menu-item-colour: #2196f3;
-  --effectiive-title-button-colour: #fff;
-  --main-list-text--colour:#757575;
-  --footer-item-link-colour:rgba(255, 255, 255, 0.6);
+  --title-color:#212121;
+  --accent-color: #2196f3;
+  --button-text-color: #fff;
+  --text-color:#757575;
   }
