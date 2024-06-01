@@ -3,4 +3,8 @@
   --accent-color: #2196f3;
   --button-text-color: #fff;
   --text-color:#757575;
+
+  /* Font family */
+  --font-family: "Roboto", sans-serif;
+  --second-family: "Raleway", sans-serif;
   }
