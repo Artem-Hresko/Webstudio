@@ -7,6 +7,13 @@
   /* Font family */
   --font-family: "Roboto", sans-serif;
   --second-family: "Raleway", sans-serif;
+  body {
+  
+      font-family: ‘Inter’;
+  
+    }
+  
+    ;
   }
     h1,
     h2,
