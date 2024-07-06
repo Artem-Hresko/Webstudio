@@ -7,14 +7,12 @@
   /* Font family */
   --font-family: "Roboto", sans-serif;
   --second-family: "Raleway", sans-serif;
-  body {
-  
-      font-family: ‘Inter’;
-  
-    }
-  
-    ;
   }
+body {
+
+  font-family: ‘Roboto’ ;
+
+}
     h1,
     h2,
     h3,
@@ -53,3 +51,97 @@
       padding: 0 15px;
       margin: 0 auto;
     }
+
+/* Header */
+.head-logo { 
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;}
+
+  .head-studio {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 0.03em; }
+
+
+    .head-logo { color: var(--accent-color);}
+    .head-studio { color: var(--title-color);}
+   
+    .menu-link {
+       font-family: var(--font-family);
+      font-weight: 500;
+      font-size: 14px;
+      letter-spacing: 0.02em;
+      color: #212121
+    }
+    .menu-link:hover {
+      color: #2196f3;
+    }
+    .nav-menu-link { 
+      font-family: var(--font-family);
+      font-weight: 500;
+      font-size: 14px;
+      letter-spacing: 0.02em;
+      color: #757575;
+    }
+    .nav-menu-link:hover {
+      color: #2196f3;
+    }
+    
+    
+    h2 { color: var(--title-color);}
+    p {color:var(--text-color) }
+
+    .main-list-text {
+      font-family: var(--font-family);
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 171%;
+      letter-spacing: 0.03em;}
+
+      .main-list-title {
+        font-family: var(--font-family);
+         font-weight: 700;
+        font-size: 14px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;}
+      /* EFFECTIVE SECTION  */
+      .effective { 
+        width: 1600px;
+        height: 600px;
+      background-color: #2f303a;}
+      
+      .effective-title { 
+        font-family: var(--font-family);
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 136%;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        text-align: center;
+      color: var(--button-text-color);}
+
+      .button{
+         width: 216px;
+        height: 50px;
+      background-color: var(--accent-color);}
+      /* GALLERY */
+      .galery-title {
+        font-family: var(--font-family);
+        font-weight: 700;
+          font-size: 36px;
+          letter-spacing: 0.03em;
+          text-align: center;
+      }
+      .gallery-team-title {
+font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+  text-align: center
+  color  var(--title-color) 
+
+
+      }
