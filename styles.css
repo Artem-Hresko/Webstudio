@@ -70,7 +70,7 @@ body {
     .head-studio { color: var(--title-color);}
    
     .menu-link {
-       font-family: var(--font-family);
+      
       font-weight: 500;
       font-size: 14px;
       letter-spacing: 0.02em;
@@ -134,14 +134,30 @@ body {
           font-size: 36px;
           letter-spacing: 0.03em;
           text-align: center;
+          color: var(--title-color);
       }
       .gallery-team-title {
 font-family: var(--font-family);
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 0.03em;
-  text-align: center
-  color  var(--title-color) 
+  text-align: center;
+  color:  var(--title-color) }
 
+  .gallery-team-name { 
 
-      }
+    font-weight: 500;
+      font-size: 16px;
+      letter-spacing: 0.03em;
+      text-align: center;
+      color: var(--title-color);
+  }
+  .gallery-team-text { 
+
+    font-weight: 400;
+      font-size: 16px;
+      letter-spacing: 0.03em;
+      text-align: center;
+      color: var(--text-color);
+  }
+  /* FOOTER */
