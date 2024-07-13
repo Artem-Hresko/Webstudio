@@ -51,7 +51,7 @@ button {
 }
 
 /* Header */
-.head-logo {
+.logo {
   font-family: var(--second-family);
   font-weight: 700;
   font-size: 26px;
@@ -60,23 +60,17 @@ button {
   margin-bottom: 25px;
   margin-left: 215px;
   margin-right: 1240px;
+  color: var(--accent-color);
 }
 
-.head-studio {
+.studio {
   font-family: var(--second-family);
   font-weight: 700;
   font-size: 26px;
   letter-spacing: 0.03em;
   margin-top: 24px;
   margin-bottom: 25px;
-
   margin-right: 1240px;
-}
-
-.head-logo {
-  color: var(--accent-color);
-}
-.head-studio {
   color: var(--title-color);
 }
 
@@ -230,6 +224,23 @@ p {
   margin-right: 30px;
 }
 /* FOOTER */
+.footer {
+  width: 1600px;
+  height: 252px;
+  background-color: #2f303a;
+}
+
+.footer-studio {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  margin-top: 24px;
+  margin-bottom: 25px;
+  margin-right: 1240px;
+  color: var(--button-text-color);
+}
+
 .footer-item {
   font-weight: 400;
   font-size: 14px;
