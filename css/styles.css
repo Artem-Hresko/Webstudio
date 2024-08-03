@@ -45,7 +45,7 @@ button {
 }
 
 .container {
-  width: 1158px;
+  width: 1600px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -78,6 +78,7 @@ button {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  column-gap: 47px;
 }
 
 .menu-link {
@@ -86,6 +87,14 @@ button {
   letter-spacing: 0.02em;
   color: #212121;
 }
+
+.nav-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  column-gap: 50px;
+}
+
 .menu-link:hover {
   color: #2196f3;
 }
@@ -108,20 +117,20 @@ p {
 
 /* MAIN */
 
-.main {
-  width: 1170px;
-  height: 98px;
-}
+
 .main-list-item {
   width: 270px;
   height: 98px;
 }
 
+
+
 .main-list {
   display: flex;
-  flex-wrap: wrap;
   column-gap: 30px;
   justify-content: center;
+  margin-left: 215px;
+  margin-right: 215px;
 }
 
 .main-list-text {
@@ -130,6 +139,9 @@ p {
   line-height: 171%;
   letter-spacing: 0.03em;
 }
+
+
+
 
 .main-list-title {
   font-weight: 700;
@@ -140,8 +152,6 @@ p {
 }
 /* EFFECTIVE SECTION  */
 .effective {
-  width: 1600px;
-  height: 600px;
   background-color: #2f303a;
 }
 
@@ -162,17 +172,16 @@ p {
 .button {
   width: 216px;
   height: 50px;
-  margin-top: 45px;
-  margin-bottom: 139px;
-  margin-left: 692px;
+  margin-top: 44px;
+  margin-bottom: 201px;
+  margin-left: 676px;
+  margin-right: 692px;
   background-color: var(--accent-color);
 }
 
 /* GALLERY */
-.gallery-team {
-  width: 1600px;
-  height: 648px;
-}
+
+
 .galery-title {
   font-weight: 700;
   font-size: 36px;
@@ -211,6 +220,8 @@ p {
   flex-wrap: wrap;
   column-gap: 30px;
   justify-content: center;
+  margin-left: 215px;
+  margin-right: 215px;
 }
 
 .gallery-team-text {
@@ -228,6 +239,7 @@ p {
   width: 1600px;
   height: 252px;
   background-color: #2f303a;
+  justify-content: center;
 }
 
 .footer-studio {
@@ -330,9 +342,10 @@ p {
 .potfolio-gallery-list {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 30px;
   margin-left: 215px;
   margin-right: 215px;
+  column-gap: 30px;
+  row-gap: 30px;
 }
 /* POTFOLIO GALLERY */
 .potfolio-gallery-title {
@@ -349,4 +362,7 @@ p {
   line-height: 187%;
   letter-spacing: 0.03em;
   color: var(--text-color);
+}
+.potfolio-gallery-item {
+  flex-basis:calc((100% - 60px) / 3);
 }
