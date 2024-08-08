@@ -3,6 +3,7 @@
   --accent-color: #2196f3;
   --button-text-color: #fff;
   --text-color: #757575;
+  --color-border: #eee;
 
   /* Font family */
   --font-family: "Roboto", sans-serif;
@@ -48,31 +49,30 @@ button {
   width: 1600px;
   padding: 0 15px;
   margin: 0 auto;
-  margin-top: 49px;
+  
 }
 
 /* Header */
+
+.head-position  {
+  display: flex;
+ text-align: center;
+ margin-top: 30px;
+ 
+}
+
 .logo {
   font-family: var(--second-family);
   font-weight: 700;
   font-size: 26px;
   letter-spacing: 0.03em;
-  margin-top: 30px;
-  margin-bottom: 25px;
-  margin-left: 215px;
-  margin-right: 1240px;
   color: var(--accent-color);
+  
 }
 
 .studio {
-  font-family: var(--second-family);
-  font-weight: 700;
-  font-size: 26px;
-  letter-spacing: 0.03em;
-  margin-top: 30px;
-  margin-bottom: 25px;
-  margin-right: 1240px;
   color: var(--title-color);
+   
 }
 
 .menu {
@@ -80,14 +80,17 @@ button {
   flex-wrap: wrap;
   justify-content: center;
   column-gap: 47px;
-  margin-bottom: 36px;
+margin-left: 92px;
+margin-right: 345px;
 }
+
 
 .menu-link {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
   color: #212121;
+
 }
 
 .nav-menu {
@@ -95,7 +98,11 @@ button {
   flex-wrap: wrap;
   justify-content: end;
   column-gap: 50px;
-  margin-bottom: 36px;
+ 
+}
+
+.nav-menu-item {
+  padding-bottom: 37px;
 }
 
 .menu-link:hover {
@@ -200,14 +207,26 @@ p {
   text-align: center;
   margin-bottom: 59px;
   color: var(--title-color);
+ padding-top: 107px;
+
 }
 
+.gallery-item-div {
+  padding: 30px 62px;
+  text-align: center;
+}
+
+.gallery-team  {
+  margin-top: 94px;
+   background-color: rgba(245, 244, 250, 1);
+}
 .gallery-team-name {
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--title-color);
+
 }
 .gallery-list {
   display: flex;
@@ -215,18 +234,24 @@ p {
   column-gap: 30px;
   justify-content: center;
   margin-top: 59px;
-  margin-bottom: 202px;
+
 }
 
 .gallery-team-list {
   display: flex;
-  flex-wrap: wrap;
   column-gap: 30px;
   justify-content: center;
   margin-left: 215px;
   margin-right: 215px;
-  margin-bottom: 97px;
+ padding-bottom: 97px;
+
 }
+ 
+ .gallery-team-item {
+  background-color: #fff;
+  height: 368px;
+  width: 270px;
+ }
 
 .gallery-team-text {
   font-weight: 400;
@@ -237,38 +262,27 @@ p {
 }
 .gallery-list-item {
   margin-right: 30px;
+
 }
 /* FOOTER */
 .footer {
-  height: 252px;
+ 
   background-color: #2f303a;
-  justify-content: center;
+ padding: 60px 0;
 }
 
 .footer-item-text {
+  margin-top: 20px;
   color: var(--button-text-color);
 }
 
 
 
 .footer-studio {
-  font-family: var(--second-family);
-  font-weight: 700;
-  font-size: 26px;
-  letter-spacing: 0.03em;
-  margin-top: 59px;
-  margin-bottom: 25px;
-  margin-right: 1240px;
   color: var(--button-text-color);
 }
 
-.footer-item {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 171%;
-  letter-spacing: 0.03em;
-  color: var(--button-text-color);
-}
+
 
 .footer-item-link {
  
@@ -335,7 +349,11 @@ p {
   color: var(--button-text-color);
 }
 
-.nav-list {
+.filter-title {
+  display: none;
+}
+
+.filter-list {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -346,10 +364,15 @@ p {
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--title-color);
-  margin-bottom: 64px;
+  margin-bottom: 34px;
   margin-left: 515px;
   margin-right: 515px;
+  
 }
+.filter-position {
+  margin-top: 100px;
+}
+
 
 .potfolio-gallery-list {
   display: flex;
@@ -358,6 +381,7 @@ p {
   margin-right: 215px;
   column-gap: 30px;
   row-gap: 30px;
+  padding-bottom: 94px;
 }
 /* POTFOLIO GALLERY */
 .potfolio-gallery-title {
@@ -366,6 +390,8 @@ p {
   line-height: 200%;
   letter-spacing: 0.06em;
   color: var(--title-color);
+margin: 20px 24px 4px;
+
 }
 
 .potfolio-gallery-text {
@@ -374,7 +400,11 @@ p {
   line-height: 187%;
   letter-spacing: 0.03em;
   color: var(--text-color);
+  margin: 0 24px 20px ;
 }
+
+
 .potfolio-gallery-item {
   flex-basis:calc((100% - 60px) / 3);
+  outline: 1px solid var(--color-border)
 }
