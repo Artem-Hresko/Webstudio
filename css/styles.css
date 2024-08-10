@@ -54,6 +54,11 @@ button {
 
 /* Header */
 
+.header {
+border-bottom: 1px solid var(--color-border);
+}
+
+
 .head-position  {
   display: flex;
  text-align: center;
@@ -407,4 +412,8 @@ margin: 20px 24px 4px;
 .potfolio-gallery-item {
   flex-basis:calc((100% - 60px) / 3);
   outline: 1px solid var(--color-border)
+}
+
+.hero-footer {
+  font-style: normal;
 }
