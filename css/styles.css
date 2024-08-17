@@ -252,8 +252,13 @@ p {
   padding: 60px 0;
 }
 
+.footer-item {
+  margin-bottom: 9px;
+}
+
 .footer-item-text {
   margin-top: 20px;
+
   color: var(--button-text-color);
 }
 
