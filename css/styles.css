@@ -391,3 +391,61 @@ p {
 .hero-footer {
   font-style: normal;
 }
+
+.social-networks {
+  display: flex;
+  width: 206px;
+  height: 44px;
+  row-gap: 10px;
+}
+
+.instagram {
+  stroke: grey;
+  fill: grey;
+  height: 20px;
+  width: 20px;
+}
+
+.instagram:hover {
+  background-color: #2196f3;
+  fill: white;
+}
+
+.Twitter {
+  stroke: grey;
+  fill: grey;
+  height: 20px;
+  width: 20px;
+}
+
+.Twitter:hover {
+  background-color: #2196f3;
+  fill: white;
+}
+.Facebook {
+  stroke: grey;
+  fill: grey;
+  height: 20px;
+  width: 20px;
+}
+
+.Facebook:hover {
+  background-color: #2196f3;
+  fill: white;
+}
+.Linkedin {
+  stroke: grey;
+  fill: grey;
+  height: 20px;
+  width: 20px;
+}
+
+.Linkedin:hover {
+  background-color: #2196f3;
+  fill: white;
+}
+
+.social-network-item {
+  width: 44px;
+  height: 44px;
+}
