@@ -151,7 +151,7 @@ p {
 }
 /* EFFECTIVE SECTION  */
 .effective {
-  background-color: #2f303a;
+  background-image: url(../IMAGES/Img.png);
   padding: 200px 0;
 }
 
@@ -204,6 +204,8 @@ p {
 .gallery-item-div {
   padding: 30px 62px;
   text-align: center;
+  width: 270px;
+  height: 168px;
 }
 
 .gallery-team {
@@ -443,6 +445,18 @@ p {
 .Linkedin:hover {
   background-color: #2196f3;
   fill: white;
+}
+
+.social-networks {
+  display: flex;
+  column-gap: 10px;
+  margin-left: 32px;
+  margin-right: 32px;
+  margin-bottom: 30px;
+  margin-top: 16px;
+  height: 44px;
+  width: 206px;
+  align-items: center;
 }
 
 .social-network-item {
