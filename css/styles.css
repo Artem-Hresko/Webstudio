@@ -394,72 +394,85 @@ p {
   font-style: normal;
 }
 
-.social-networks {
-  display: flex;
-  width: 206px;
-  height: 44px;
-  row-gap: 10px;
-}
-
-.instagram {
-  stroke: grey;
-  fill: grey;
-  height: 20px;
-  width: 20px;
-}
-
-.instagram:hover {
-  background-color: #2196f3;
-  fill: white;
-}
-
-.Twitter {
-  stroke: grey;
-  fill: grey;
-  height: 20px;
-  width: 20px;
-}
-
-.Twitter:hover {
-  background-color: #2196f3;
-  fill: white;
-}
-.Facebook {
-  stroke: grey;
-  fill: grey;
-  height: 20px;
-  width: 20px;
-}
-
-.Facebook:hover {
-  background-color: #2196f3;
-  fill: white;
-}
-.Linkedin {
-  stroke: grey;
-  fill: grey;
-  height: 20px;
-  width: 20px;
-}
-
-.Linkedin:hover {
-  background-color: #2196f3;
-  fill: white;
-}
-
-.social-networks {
-  display: flex;
-  column-gap: 10px;
-  margin-left: 32px;
-  margin-right: 32px;
-  margin-bottom: 30px;
-  margin-top: 16px;
-  height: 44px;
-  width: 206px;
-  align-items: center;
-}
-
 .social-network-item {
   width: 44px;
   height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-networks-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  margin-top: 16px;
+}
+
+.networks-svg-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.networks-svg-link:hover {
+  background-color: #2196f3;
+}
+
+.networks-svg-link:hover .network {
+  fill: #fff;
+}
+
+.network {
+  fill: grey;
+  height: 20px;
+  width: 20px;
+}
+
+/* Footer-networks */
+
+.footer-networks-div {
+  height: 80px;
+  width: 206px;
+}
+
+.footer-networks-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-network {
+  fill: white;
+  height: 20px;
+  width: 20px;
+}
+
+.footer-networks-svg-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-networks-svg-link:hover {
+  background-color: #2196f3;
+}
+
+.networks-title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #fff;
 }
