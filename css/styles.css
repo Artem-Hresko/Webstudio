@@ -438,6 +438,7 @@ p {
 .footer-networks-div {
   height: 80px;
   width: 206px;
+  margin-left: 70px;
 }
 
 .footer-networks-list {
@@ -475,4 +476,8 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #fff;
+}
+
+.footer-container {
+  display: flex;
 }
