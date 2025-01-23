@@ -252,6 +252,7 @@ p {
 .footer {
   background-color: #2f303a;
   padding: 60px 0;
+  height: 252px;
 }
 
 .footer-item {
@@ -439,6 +440,7 @@ p {
   height: 80px;
   width: 206px;
   margin-left: 70px;
+  margin-top: 12px;
 }
 
 .footer-networks-list {
@@ -476,6 +478,7 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #fff;
+  padding-bottom: 20px;
 }
 
 .footer-container {
