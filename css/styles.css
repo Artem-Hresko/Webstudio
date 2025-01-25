@@ -484,3 +484,41 @@ p {
 .footer-container {
   display: flex;
 }
+
+.clients-div {
+  padding-right: 94px;
+  padding-bottom: 94px;
+  padding-left: 215px;
+  padding-right: 215px;
+}
+
+.clients-list {
+  display: flex;
+  justify-content: center;
+  column-gap: 16px;
+}
+
+.clients-list-item {
+  border: solid 3px grey;
+  height: 92px;
+}
+
+.clients {
+  height: 60px;
+  width: 106px;
+  fill: grey;
+  margin-left: 32px;
+  margin-right: 32px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.client-title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #212121;
+  margin-bottom: 34px;
+}
