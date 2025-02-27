@@ -480,6 +480,7 @@ p {
   border-radius: 50%;
   align-items: center;
   justify-content: center;
+background-color: rgba(255, 255, 255, 0.1);
 }
 
 .footer-networks-svg-link:hover {
@@ -519,6 +520,9 @@ p {
   margin-right: 32px;
   margin-top: 16px;
   margin-bottom: 16px;
+  border-radius: 50%;
+
+;
 }
 
 .client-title {
