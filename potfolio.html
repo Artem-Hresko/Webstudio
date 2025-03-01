@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="header">
+     <header class="header">
       <div class="container head-position">
         <a href="./index.html" class="logo"
           >Web<span class="studio">Studio</span></a
@@ -43,11 +43,21 @@
         </nav>
         <ul class="nav-menu">
           <li class="nav-menu-item">
+
+             <a href="#" class="nav-menu-image-link"
+              ><svg width="16" height="12" viewBox="0 0 16 12" class="nav-networks">
+                <use  href="./Icons/symbol-defs.svg#icon-email"></use>
+              </svg>
+
             <a class="nav-menu-link" href="mailto:someone@example.com"
-              >info@devstudio.com</a
-            >
-          </li>
+              >info@devstudio.com</a> </li>
           <li class="nav-menu-item">
+
+            <a href="#" class="nav-menu-image-link"
+              ><svg width="10" height="16" viewBox="0 0 10 16" class="nav-networks">
+                <use href="./Icons/symbol-defs.svg#icon-phone"></use>
+              </svg>
+
             <a class="nav-menu-link" href="tel:+0961111111">+096 111 11 11</a>
           </li>
         </ul>
@@ -134,28 +144,63 @@
       </section>
     </main>
     <!-- Footer -->
-    <footer class="footer">
-      <div class="container">
-        <a href="./index.html" class="logo"
-          >Web<span class="footer-studio">Studio</span></a
-        >
-        <address class="hero-footer">
-          <ul class="footer-list">
-            <li class="footer-item">
-              <p class="footer-item-text">м.Київ,пр-т Лесі Українки, 26</p>
+ <footer class="footer">
+      <div class="container footer-container">
+        <div class="contact-info">
+          <a href="./index.html" class="logo"
+            >Web<span class="footer-studio">Studio</span></a
+          >
+          <address class="hero-footer">
+            <ul class="footer-list">
+              <li class="footer-item">
+                <p class="footer-item-text">м.Київ,пр-т Лесі Українки, 26</p>
+              </li>
+              <li class="footer-item">
+                <a class="footer-item-link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="footer-item">
+                <a class="footer-item-link" href="tel:+0961111111"
+                  >+96 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer-networks-div">
+          <h2 class="networks-title">Приєднуйтесь</h2>
+          <ul class="footer-networks-list">
+            <li class="footer-networks-item">
+              <a href="" class="footer-networks-svg-link"
+                ><svg class="footer-network">
+                  <use href="./Icons/symbol-defs.svg#icon-instagram-2"></use>
+                </svg>
+              </a>
             </li>
-            <li class="footer-item">
-              <a class="footer-item-link" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
+            <li class="footer-networks-item">
+              <a href="" class="footer-networks-svg-link">
+                <svg class="footer-network">
+                  <use href="./Icons/symbol-defs.svg#icon-twitter-1-1"></use>
+                </svg>
+              </a>
             </li>
-            <li class="footer-item">
-              <a class="footer-item-link" href="tel:+0961111111"
-                >+96 111 11 11</a
-              >
+            <li class="footer-networks-item">
+              <a href="#" class="footer-networks-svg-link"
+                ><svg class="footer-network">
+                  <use href="./Icons/symbol-defs.svg#icon-facebook-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-networks-item">
+              <a href="" class="footer-networks-svg-link"
+                ><svg class="footer-network">
+                  <use href="./Icons/symbol-defs.svg#icon-linkedin-1"></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>
